@@ -2,6 +2,7 @@ import React from 'react';
 import './home.css';
 import pic from "../assets/images/pic.jpg";
 import dice from "../assets/images/dice.png";
+import News from './news.jsx';
 
 const greetings = [
   "Hello! I am ",
@@ -33,7 +34,7 @@ function Home() {
 		  <p> I am based in Boston and Las Vegas.</p>
 		  <div className="sbsBox">
 		  	<img className="picture" src={pic} />
-		  	<p>aaaaaaaaaaaaaaaaaaaaaaaa</p>
+		  	<News/>
 		  </div>
 		</>
 	);

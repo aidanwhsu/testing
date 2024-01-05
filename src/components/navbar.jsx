@@ -8,18 +8,18 @@ function Navbar() {
 	return (
 		<div className="nav">
 			<div className="title">Aidan Hsu</div>
-			<Link to="/">Home</Link>
-			<Link to="/projects">Projects</Link>
-			<a href="#">Resume</a>
+			<Link to="/testing/">Home</Link>
+			<Link to="/testing/projects">Projects</Link>
+			<Link to="/testing/resume">Resume</Link>
 			<a id="linkedin" href="https://www.linkedin.com/in/aidan-hsu-ahwc/">
 			  LinkedIn
-			  <img className="icon" src={linkedin_icon} />
+			  <img className="icon" src={linkedin_icon} alt="linkedin_icon"/>
 			</a>
 			<a id="github" href="https://github.com/aidanwhsu">
 			  Github
-			  <img className="icon" src={github_icon} />
+			  <img className="icon" src={github_icon} alt="github_icon"/>
 			</a>
-			<a href="#">More About Me!</a>
+			<a href="/testing">More About Me!</a>
 		</div>
 	);
 }

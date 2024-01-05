@@ -22,3 +22,9 @@ span {
   color: var(--content-highlight);
   padding-left: 10px;
 }
+
+@media (max-width:900px) {
+  .content {
+    height: 100vh;
+  }
+}
