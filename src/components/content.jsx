@@ -13,11 +13,11 @@ function Content() {
 	return (
 		<BrowserRouter>
         <Routes>
-          <Route path = "/testing" element={<NavbarAndOutlet/>}>
-	        <Route path="/testing" element={<Home />} />
-	        <Route path="/testing/projects" element={<Projects />} />
-			<Route path="/testing/resume" element={<Resume />} />
-			<Route path="/testing/more" element={<More />} />
+          <Route path = "/" element={<NavbarAndOutlet/>}>
+	        <Route path="/" element={<Home />} />
+	        <Route path="/projects" element={<Projects />} />
+			<Route path="/resume" element={<Resume />} />
+			<Route path="/more" element={<More />} />
 	      </Route>
         </Routes>
         </BrowserRouter>

@@ -8,9 +8,9 @@ function Navbar() {
 	return (
 		<div className="nav">
 			<div className="title">AIDAN HSU</div>
-			<Link to="/testing/">Home</Link>
-			<Link to="/testing/projects">Projects</Link>
-			<Link to="/testing/resume">Resume</Link>
+			<Link to="/">Home</Link>
+			<Link to="/projects">Projects</Link>
+			<Link to="/resume">Resume</Link>
 			<a id="linkedin" href="https://www.linkedin.com/in/aidan-hsu-ahwc/" target="_blank" rel="noreferrer">
 			  LinkedIn
 			  <img className="icon" src={linkedin_icon} alt="linkedin_icon"/>
@@ -19,7 +19,7 @@ function Navbar() {
 			  Github
 			  <img className="icon" src={github_icon} alt="github_icon"/>
 			</a>
-			<a href="/testing/more">More About Me!</a>
+			<a href="/more">More About Me!</a>
 		</div>
 	);
 }
