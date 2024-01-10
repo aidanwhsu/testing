@@ -23,7 +23,7 @@ header {
     .project-block {
         flex-direction: column;
         width: 600px;
-        height: 650px;
+        height: auto;
         align-items: center;
     }
 }

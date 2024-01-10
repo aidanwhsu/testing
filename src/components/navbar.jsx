@@ -19,7 +19,6 @@ function Navbar() {
 			  Github
 			  <img className="icon" src={github_icon} alt="github_icon"/>
 			</a>
-			<a href="/more">More About Me!</a>
 		</div>
 	);
 }
