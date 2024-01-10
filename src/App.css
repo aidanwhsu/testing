@@ -1,7 +1,29 @@
+:root {
+  /* --main-bg-color: #25282e;
+  --main-navbar-color: #16181c;
+  --navbar-text-color: #FFFFFF;
+  --navbar-hover-color: #3e424a;
+  --content-text-color: #FFFFFF;
+  --content-highlight: #6b82b0; */
+  --main-bg-color: #eff0f3;
+  --main-navbar-color: #fffffe;
+  --navbar-text-color: #0d0d0d;
+  --navbar-hover-color: #ff8e3c;
+  --nav-font: 'Montserrat', sans-serif;
+  --content-text-color: #0d0d0d;
+  --content-highlight: #6b82b0;
+  --content-font: 'Montserrat', sans-serif;
+}
+
 .App {
   text-align: center;
   display:grid;
   grid-template-columns: 300px 1fr;
+  max-width: 1223px;
+}
+
+#root{
+  background-color: var(--main-navbar-color);
 }
 
 @media (max-width:900px) {

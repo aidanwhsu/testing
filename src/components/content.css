@@ -1,21 +1,14 @@
-:root {
-/*  --main-bg-color: #faeee7;*/
-/*fffffe*/
-  --main-bg-color: #25282e;
-  --main-navbar-color: #16181c;
-  --navbar-text-color: #FFFFFF;
-  --navbar-hover-color: #3e424a;
-  --content-text-color: #FFFFFF;
-  --content-highlight: #6b82b0;
-}
-
 .content {
-  background: var(--main-bg-color);
-  padding: 20px;
+  /* background: var(--main-bg-color); */
+  /* background-image: linear-gradient(to bottom right, var(--main-navbar-color) , var(--main-bg-color)); */
+  margin: 40px 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 p, h1 {
   color: var(--content-text-color);
+  font-family: var(--nav-font);
 }
 
 span {
@@ -23,6 +16,13 @@ span {
   padding-left: 10px;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+p {
+  font-size: 20px;
+}
 @media (max-width:900px) {
   .content {
     height: 100vh;

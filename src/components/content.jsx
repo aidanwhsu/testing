@@ -6,6 +6,7 @@ import Home from './home.jsx';
 import Projects from './projects.jsx';
 import Resume from './resume.jsx';
 import Navbar from "./navbar.jsx";
+import More from "./more.jsx";
 import './content.css';
 
 function Content() {
@@ -16,6 +17,7 @@ function Content() {
 	        <Route path="/testing" element={<Home />} />
 	        <Route path="/testing/projects" element={<Projects />} />
 			<Route path="/testing/resume" element={<Resume />} />
+			<Route path="/testing/more" element={<More />} />
 	      </Route>
         </Routes>
         </BrowserRouter>

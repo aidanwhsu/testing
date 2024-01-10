@@ -10,17 +10,23 @@
 
 }
 
+.nav a{
+  font-family: var(--nav-font);
+}
 .title {
   height: 10%;
   font-size: 40px;
   font-weight: bold;
   text-align: center;
-  font-family:"Open Sans", sans-serif;
+  /* font-family:"Open Sans", sans-serif; */
+  font-family: var(--nav-font);
+  user-select: none;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--navbar-text-color);
-  text-shadow: 5px 3px var(--content-highlight);
+  /* color: var(--navbar-text-color);
+  text-shadow: 5px 3px var(--content-highlight); */
+  color: var(--content-highlight);
   padding-bottom: 20px;
 }
 

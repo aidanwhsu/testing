@@ -1,9 +1,28 @@
 import React from 'react';
+import ProjectBlock from './blocks/projectblock.jsx';
+import './projects.css';
+import multiplication from "src/assets/images/multiplication.png";
+import highway from "src/assets/images/highway.jpg";
 
 function Projects() {
 	return (
 		<>
-		  <h1>Projects</h1>
+			<ProjectBlock 
+				picture = {{alt: 'Multiplication Complexity Analysis', src: multiplication}}
+				text = {{
+					header: 'Multiplication Complexity Analysis', 
+					p: 'Explaination, analysis on the runtime, and python implementation of the gradeschool, Karatsuba, and the Toom-3 multiplication algorithms.'
+				}}
+				link = "https://github.com/aidanwhsu/multiplication-runtime-analysis"
+			/>
+			<ProjectBlock 
+				picture = {{alt: 'Metro Interstate', src: highway}}
+				text = {{
+					header: 'Profiling and model on the Metro Interstate Traffic Volume dataset', 
+					p: 'Profiling and Scikit-Learn machine learning models on the Metro Interstate Traffic Volume Dataset.'
+				}}
+				link = "https://github.com/aidanwhsu/metrointerstate-profiling-and-model"
+			/>
 		</>
 	);
 }
