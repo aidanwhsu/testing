@@ -1,3 +1,4 @@
-# React Personal Website - Aidan Hsu
+# WIP React Personal Website - Aidan Hsu
 
-This project was bootstrapped with [Create React App]
+Check out the website [Here](https://aidancodes.dev/)
+
