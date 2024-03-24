@@ -11,6 +11,7 @@ function Navbar() {
 			<Link to="/">Home</Link>
 			<Link to="/projects">Projects</Link>
 			<Link to="/resume">Resume</Link>
+			<Link to="/more">More</Link>
 			<a id="linkedin" href="https://www.linkedin.com/in/aidan-hsu-ahwc/" target="_blank" rel="noreferrer">
 			  LinkedIn
 			  <img className="icon" src={linkedin_icon} alt="linkedin_icon"/>

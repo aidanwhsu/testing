@@ -1,7 +1,6 @@
 import React from 'react';
 import './home.css';
 import dice from "../assets/images/dice.png";
-import News from './news.jsx';
 import pic from "../assets/images/pic.jpg";
 
 const greetings = [
@@ -41,7 +40,6 @@ function Home() {
 			<p> I am a Senior at Boston College, working towards a B.A. in Computer Science with a minor in biology and math. I am looking to start my career in Software Engineering.</p>
 			<p> I am based in Boston and Las Vegas.</p>
 			<p> Check out some of my projects on the side!</p>
-			<News/>
 		  </div>
 		  
 		</div>

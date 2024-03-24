@@ -21,13 +21,19 @@ header {
 }
 
 .picture {
-  width: 360px;
+  max-width: 20rem;
   margin: 20px;
 }
 
 .home-content {
   padding: 10px 10px 10px 10px;
   display: flex;
+  max-width: 44rem;
+}
+
+.home-header {
+  max-width: 15rem;
+  margin: 20px;
 }
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
