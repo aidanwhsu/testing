@@ -5,9 +5,9 @@
   align-items: center;
   justify-content: center;
   width: 48rem;
-  /* max-height: calc(100vh - 200px); */
-  overflow-y: auto;
-  position: relative;
+  padding-top:140px;
+  /* overflow-y: auto; */
+  /* height: 100%; */
 }
 
 p, h1 {
@@ -32,7 +32,9 @@ p {
     overflow-y: auto;
     height: calc(100vh - 300px);
     display: block;
-    padding: 1px;
+    padding-top: 253px;
+    width:100%;
+    margin: 0px;
   }
 
   ::-webkit-scrollbar {

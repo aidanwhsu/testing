@@ -24,18 +24,21 @@
   margin-right: auto;
   width: 50rem;
   /* max-width: 1223px; */
-  height: 100vh;
+  
 }
 
 #root{
   background-color: var(--main-navbar-color);
   height: 100vh;
+  overflow-y: auto;
 }
 
 @media (max-width:900px) {
   .App {
     display:flex;
     flex-direction: column;
+    margin: 0px;
+    width:100%;
   }
 
 
