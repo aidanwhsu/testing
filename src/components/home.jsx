@@ -37,7 +37,7 @@ function Home() {
 				</span>
 				<img onClick={handleChangeGreeting} className="dice" src={dice} alt="dice"/>
 			</header>
-			<p> I am a Senior at Boston College, working towards a B.A. in Computer Science with a minor in biology and math. I am looking to start my career in Software Engineering.</p>
+			<p> I am a recent graduate from Boston College, with a B.A. in Computer Science with a minor in biology and math. I am looking to start my career in Software Engineering.</p>
 			<p> I am based in Boston and Las Vegas.</p>
 			<p> Check out some of my projects on the side!</p>
 		  </div>

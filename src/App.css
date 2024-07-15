@@ -24,10 +24,12 @@
   margin-right: auto;
   width: 50rem;
   /* max-width: 1223px; */
+  height: 100vh;
 }
 
 #root{
   background-color: var(--main-navbar-color);
+  height: 100vh;
 }
 
 @media (max-width:900px) {
