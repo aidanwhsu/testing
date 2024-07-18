@@ -2,17 +2,29 @@ h1 {
   margin: 0;
 }
 
-header {
+.home-content header {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top:20px;
+  padding:100px 0px 100px;
+  background-color: var(--main-bg-color);
+  width: 100%;
+}
+
+.home-content header span{
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
 }
 
 .dice {
   width:50px;
   height:50px;
+  padding: 10px;
+  left: 60%;
 }
 
 .dice:hover {
@@ -26,15 +38,23 @@ header {
 }
 
 .home-content {
-  padding: 10px 10px 10px 10px;
+  /* padding: 0px 10px 10px 10px; */
   display: flex;
-  max-width: 44rem;
+  /* max-width: 44rem; */
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
-.home-header {
-  max-width: 15rem;
-  margin: 20px;
+.home-bio {
+  /* max-width: 15rem; */
+  width: 50rem;
+  margin: 0px 20px 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
 @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }

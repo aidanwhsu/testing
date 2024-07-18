@@ -4,9 +4,15 @@
     --distance: 46%;
 }
 
+.resume-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .resume-header {
     color: var(--content-highlight);
     text-align: center;
+    padding:10px 0px 10px;
 }
 
 .education-block {
@@ -59,3 +65,48 @@
       #fff calc(100% - var(--border) + 1px)
     );
   }
+
+
+.experience-block{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 2px solid var(--main-bg-color);
+  width: 50rem;
+}
+
+.experience-block h1{
+  text-align: center;
+  font-size: 16px;
+}
+
+.experience-block p{
+  font-size: 15px;
+}
+
+.experience-title {
+  padding-top: 10px;
+}
+
+.experience-block img{
+  width:12rem;
+  height:12rem;
+}
+
+@media (max-width:900px) {
+  .experience-block {
+      flex-direction: column;
+      width: 600px;
+      height: auto;
+      align-items: center;
+  }
+}
+
+@media (max-width:700px) {
+  .experience-block {
+      flex-direction: column;
+      width: 90%;
+      height: auto;
+      align-items: center;
+  }
+}

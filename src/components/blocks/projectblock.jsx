@@ -9,7 +9,7 @@ function ProjectBlock({picture, text, link}) {
             <header>
               <h1>{text.header}</h1>
               <p>{text.p}</p>
-              <p>Github:<a href={link} target="_blank" rel="noreferrer"> Link </a></p>
+              <p className="github">Github:<a href={link} target="_blank" rel="noreferrer"> Link </a></p>
             </header>
           </div>
         </div>

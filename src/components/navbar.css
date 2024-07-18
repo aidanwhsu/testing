@@ -3,53 +3,58 @@
   flex-direction: row;
   align-items: center;
   top: 0;
-  width: 50rem;
+  /* width: 50rem; */
+  width:100%;
   position: fixed;
   border-bottom: 2px solid orange;
   background: var(--main-navbar-color);
+  margin: 0px auto 0px;
+  justify-content: center;
   /* padding-top: 20px; */
 
 }
 
-.nav a{
-  font-family: var(--nav-font);
-}
 .title {
   height: 10%;
-  font-size: 40px;
-  font-weight: bold;
-  text-align: center;
-  /* font-family:"Open Sans", sans-serif; */
-  font-family: var(--nav-font);
-  user-select: none;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   /* color: var(--navbar-text-color);
   text-shadow: 5px 3px var(--content-highlight); */
-  color: var(--content-highlight);
   padding-bottom: 20px;
   padding-top: 20px;
 }
 
-a {
+.titletext {
+  color: var(--content-highlight);
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  font-family: var(--nav-font), sans-serif;;
+  user-select: none;
+}
+.nav a {
   text-decoration: none;
   color: var(--navbar-text-color);
-  width: 100%;
+  width: 10%;
   height: 10%;
-  background: var(--main-navbar-color);
-  transition: background 0.5s ease-in-out;
-  font-family:"Open Sans", sans-serif;
+  /* background: var(--main-navbar-color); */
+  /* transition: background 0.5s ease-in-out; */
+  font-family:var(--nav-font), sans-serif;
   font-size: 22px;
   font-weight: bold;
-  display: flex;
+  text-align: center;
   -webkit-user-drag: none;
+}
+
+.navlink {
   /* for linkedin and github icons */
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-
-a:hover {
+.nav a:hover {
   /* background: var(--navbar-hover-color); */
   border-bottom: 2px solid var(--navbar-hover-color);
 }
@@ -70,6 +75,7 @@ a:hover {
 
   a {
     height: auto;
+    width: 100%;
   }
 
   .icon {

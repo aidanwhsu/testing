@@ -28,19 +28,22 @@ function Home() {
     };
 	return (
 		<div className="home-content">
-		  <img className="picture" alt="picture_of_me" src={pic} />
-		  <div className="home-header">
 			<header>
 				<span>
-				  <h1>{greeting}</h1>
-				  <h1><span>Aidan Hsu</span></h1>
+					<h1>{greeting}</h1>
+					<h1><span>Aidan Hsu</span></h1>
 				</span>
 				<img onClick={handleChangeGreeting} className="dice" src={dice} alt="dice"/>
 			</header>
-			<p> I am a recent graduate from Boston College, with a B.A. in Computer Science with a minor in biology and math. I am looking to start my career in Software Engineering.</p>
-			<p> I am based in Boston and Las Vegas.</p>
-			<p> Check out some of my projects on the side!</p>
-		  </div>
+		    
+		    <div className="home-bio">
+				<img className="picture" alt="picture_of_me" src={pic} />
+				<span>
+					<p> I am a recent graduate from Boston College, with a B.A. in Computer Science with a minor in biology and math. I am looking to start my career in Software Engineering.</p>
+					<p> I am based in Boston and Las Vegas.</p>
+					<p> Check out some of my projects!</p>
+				</span>
+		  	</div>
 		  
 		</div>
 	);
